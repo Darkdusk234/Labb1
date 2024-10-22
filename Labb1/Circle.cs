@@ -2,7 +2,7 @@
 {
     internal class Circle
     {
-        private float _Radius { get; set; }
+        private float _Radius;
         private readonly float _pi = 3.141f;
 
         public Circle(float radius)
